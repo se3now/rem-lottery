@@ -4,6 +4,8 @@
 
 ## Usage
 
+Run the following commands to run the app
+
 ```bash
 # Clone the project
 git clone https://github.com/se3now/rem-lottery rem-lottery/
@@ -17,6 +19,14 @@ pip3 install -r requirements.txt
 # Run the GUI
 python3 __main__.py
 ```
+
+This app requires an SQLite database with `users` table. It can be made with the following query:
+
+```sql
+CREATE TABLE users (user_id integer, username VARCHAR(250), phone_number integer);
+```
+
+And finally click on the `Find New Winner` button to find winners.
 
 ## Note
 
