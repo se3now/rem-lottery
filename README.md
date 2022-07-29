@@ -5,9 +5,11 @@
 ## Usage
 
 ```bash
-# Clone and change directory to project
-git clone https://github.com/se3now/rem-lottery
-cd rem-lottery-master
+# Clone the project
+git clone https://github.com/se3now/rem-lottery rem-lottery/
+
+# change directory to project
+cd rem-lottery
 
 # Install requirements
 pip3 install -r requirements.txt
